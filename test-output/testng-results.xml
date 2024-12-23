@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-21T17:04:40 IST" name="Default suite" finished-at="2024-12-21T17:05:27 IST" duration-ms="46454">
+  <suite started-at="2024-12-23T09:52:55 IST" name="Default suite" finished-at="2024-12-23T09:53:42 IST" duration-ms="46865">
     <groups>
     </groups>
-    <test started-at="2024-12-21T17:04:40 IST" name="Default test" finished-at="2024-12-21T17:05:27 IST" duration-ms="46454">
+    <test started-at="2024-12-23T09:52:55 IST" name="Default test" finished-at="2024-12-23T09:53:42 IST" duration-ms="46865">
       <class name="TestScript.Artical_Test_Main">
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestScript.Artical_Test_Main@201b6b6f]" started-at="2024-12-21T17:04:40 IST" name="setup" finished-at="2024-12-21T17:04:41 IST" duration-ms="1007" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestScript.Artical_Test_Main@75e91545]" started-at="2024-12-23T09:52:55 IST" name="setup" finished-at="2024-12-23T09:52:56 IST" duration-ms="410" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:1, instance:TestScript.Artical_Test_Main@201b6b6f]" started-at="2024-12-21T17:04:41 IST" name="loginTest" finished-at="2024-12-21T17:04:43 IST" duration-ms="1067" status="PASS">
+        <test-method signature="loginTest()[pri:1, instance:TestScript.Artical_Test_Main@75e91545]" started-at="2024-12-23T09:52:56 IST" name="loginTest" finished-at="2024-12-23T09:52:58 IST" duration-ms="1799" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method signature="new_Articale()[pri:2, instance:TestScript.Artical_Test_Main@201b6b6f]" started-at="2024-12-21T17:04:43 IST" name="new_Articale" finished-at="2024-12-21T17:04:49 IST" duration-ms="6377" status="PASS">
+        <test-method signature="new_Articale()[pri:2, instance:TestScript.Artical_Test_Main@75e91545]" started-at="2024-12-23T09:52:58 IST" name="new_Articale" finished-at="2024-12-23T09:53:04 IST" duration-ms="6245" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- new_Articale -->
-        <test-method signature="edit_article()[pri:3, instance:TestScript.Artical_Test_Main@201b6b6f]" started-at="2024-12-21T17:04:49 IST" name="edit_article" finished-at="2024-12-21T17:05:17 IST" duration-ms="27704" status="FAIL">
+        <test-method signature="edit_article()[pri:3, instance:TestScript.Artical_Test_Main@75e91545]" started-at="2024-12-23T09:53:04 IST" name="edit_article" finished-at="2024-12-23T09:53:32 IST" duration-ms="28099" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='title']"}
@@ -28,9 +28,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.27.0', revision: 'd6e718d'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [61ff9726c8c8aa0733161028f8ae51b6, findElement {using=xpath, value=//input[@name='title']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62439}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62439/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 61ff9726c8c8aa0733161028f8ae51b6]]>
+Command: [1d13fff6f0753ed7e23aa1e3d3988b97, findElement {value=//input[@name='title'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61313}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61313/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1d13fff6f0753ed7e23aa1e3d3988b97]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='title']"}
@@ -39,9 +39,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.27.0', revision: 'd6e718d'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [61ff9726c8c8aa0733161028f8ae51b6, findElement {using=xpath, value=//input[@name='title']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62439}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62439/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 61ff9726c8c8aa0733161028f8ae51b6
+Command: [1d13fff6f0753ed7e23aa1e3d3988b97, findElement {value=//input[@name='title'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61313}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61313/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1d13fff6f0753ed7e23aa1e3d3988b97
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
@@ -93,7 +93,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- edit_article -->
-        <test-method signature="delete()[pri:4, instance:TestScript.Artical_Test_Main@201b6b6f]" started-at="2024-12-21T17:05:17 IST" name="delete" finished-at="2024-12-21T17:05:27 IST" duration-ms="10192" status="PASS">
+        <test-method signature="delete()[pri:4, instance:TestScript.Artical_Test_Main@75e91545]" started-at="2024-12-23T09:53:32 IST" name="delete" finished-at="2024-12-23T09:53:42 IST" duration-ms="10222" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- delete -->
